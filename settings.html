@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rainbow | Home</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- Icons -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+        <!--Search-->
+        <link
+            rel="stylesheet"
+            href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+        <link rel="stylesheet" href="/resources/demos/style.css" />
+        <script src="https://code.jquery.com/jquery-1.12.4.js" async></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" async></script>
+    </head>
+    <body>
+        <header>
+            <nav id="myNavigation">
+                <!-- Logo -->
+                <div class="logo">
+                    &#127891;
+                </div>
+                
+                <div class="search-n-profile">
+                    <!-- Search -->
+
+                    <div id="search">
+                        <div class="search-input-wrapper">
+                            <form class="search-input">
+                                <input type="text" placeholder="Search" />
+                                <i class="ri-palette-line"></i>
+                            </form>
+                        </div>
+                        <div class="search-icon">
+                            <i class="ri-search-line"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Profile -->
+                    <div class="profile-icon">
+                        <i class="ri-user-3-fill"></i>
+                    </div>
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#"><i class="ri-chat-3-line"></i> Chatroom</a>
+                    <a href="#"><i class="ri-video-line"></i> Feed</a>
+                    <a href="#"><i class="ri-account-pin-box-line"></i> Account</a>
+                    <a href="#"><i class="ri-notification-badge-line"></i> Notification</a>
+                    <div class="settings-n-logout-div">
+                        <a href="./settings.html"><i class="ri-settings-5-line"></i> Settings</a>
+                        <a href="#"><i class="ri-logout-box-line"></i> Logout</a>
+                    </div>
+                </div>
+                  <span class="openbtn" onclick="openNav()">&#9776;</span>
+            </nav>
+        </header>
+
+        <section class="settings-section">
+            <div class="settings-div">
+                <ul>
+                    <li><a href="#">
+                        <i class="ri-palette-line"></i> Theme</a>
+                        <!-- <div id="dropdown-menu" class="dropdown-menu">
+                            <span>fff</span>
+                        </div> -->
+                    </li>
+                    <li><a href="#">Catlog</a></li>
+                    <li><a href="#">Friends</a></li>
+                    
+                </ul>
+            </div>
+            
+
+        </section>
+        
+        <!-- Theme Customization -->
+
+        <div class="customize-theme">
+            <div class="card">
+                <h2>Customize your veiw</h2>
+                <p>Manage your font size, colour and background.</p>
+
+                <!-- Font Size -->
+                <div class="font-size">
+                    <h4>Font Size</h4>
+                    <div>
+                        <h6>Aa</h6>
+                        <div class="choose-size">
+                            <span class="font-size-1"></span>
+                            <span class="font-size-2 active"></span>
+                            <span class="font-size-3"></span>
+                            <span class="font-size-4"></span>
+                            <span class="font-size-5"></span>
+                        </div>
+                        <h3>Aa</h3>
+                    </div>
+                </div>
+
+                <!-- Primary Colours -->
+                <div class="color">
+                    <h4>Colour</h4>
+                    <div class="choose-color">
+                        <span class="color-1 active"></span>
+                        <span class="color-2"></span>
+                        <span class="color-3"></span>
+                        <span class="color-4"></span>
+                        <span class="color-5"></span>
+                    </div>
+                </div>
+
+                <!-- Background Colors -->
+                <div class="background">
+                    <h4>Background</h4>
+                    <div class="choose-bg">
+                        <div class="bg-1">
+                            <span></span>
+                            <h5 for="bg-1">Light</h5>
+                        </div>
+                        <div class="bg-2">
+                            <span></span>
+                            <h5 for="bg-2">Dim</h5>
+                        </div>
+                        <div class="bg-3">
+                            <span></span>
+                            <h5 for="bg-3">Dark</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <script src="./script.js"></script>
+</html>
